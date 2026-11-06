@@ -146,7 +146,7 @@
 
     img.setAttribute(DONE_ATTR, 'true');
     img.loading = 'eager';
-    img.alt = 'Seekor kucing lucu';
+    img.alt = 'A cute little kitty :D';
     loadCat(img, w, h, original);
   }
 
@@ -203,7 +203,7 @@
 
   console.log('[Cat-ify] aktif di', location.hostname);
   const badge = document.createElement('div');
-  badge.textContent = '🐱 Cat-ify aktif';
+  badge.textContent = 'CAT-IFY ACTIVE!';
   badge.style.cssText =
     'position:fixed;right:12px;bottom:12px;z-index:2147483647;padding:6px 12px;' +
     'background:#ff69b4;color:#fff;font:600 13px sans-serif;border-radius:999px;' +
